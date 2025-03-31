@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        /* Ensure the body takes full height and uses Flexbox to center the content */
+        body {
+            height: 100vh;  
+            margin: 0;      
+            font-family: Arial, sans-serif;
+            display: flex;      
+            justify-content: center;  
+            align-items: center;      
+            background-color: #f4f4f4;
+        }
+
+        /* Container for the news block */
+        .inner-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        /* Styling for the image */
+        .image img {
+            width: 100%;
+            max-width: 700px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+
+        /* Styling for the lower text box */
+        .lower-box {
+            margin-top: 20px;
+        }
+
+        /* Styling for the text section */
+        .text {
+            font-size: 1.1rem;
+            color: #555;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+        /* Styling for the read more link */
+        .read-more {
+            display: inline-block;
+            margin-top: 15px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling for the post date */
+        .post-date {
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        /* Center the heading */
+        h3 a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        h3 a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="inner-box">
+        <div class="image">
+            <a href="https://www.ajc.com/news/local/new-perimeter-center-retail-area-would-pave-over-pond-build-new-road/f6ZR2gakpgAFd50j8MdhNO/">
+                <img src="images/news/Dunwoody.jpg" alt="Dunwoody Perimeter Center news article image">
+            </a>
+        </div>
+        <div class="lower-box">
+            <div class="text-center">
+                <div class="post-date">May 24, 2019</div>
+            </div>
+            <h3>
+                <a href="https://www.ajc.com/news/local/new-perimeter-center-retail-area-would-pave-over-pond-build-new-road/f6ZR2gakpgAFd50j8MdhNO/">
+                    New Perimeter Center Retail Area Would Pave Over Pond, Build New Road
+                </a>
+            </h3>
+            <section>
+                <div class="text">
+                    A heavily trafficked property near Dunwoody's Perimeter Center could be getting a major face-lift, 
+                    with developers hoping to pave over a pond, build a new street, and birth a vibrant shopping complex.
+                </div>
+                <a href="https://www.ajc.com/news/local/new-perimeter-center-retail-area-would-pave-over-pond-build-new-road/f6ZR2gakpgAFd50j8MdhNO/" class="read-more">
+                    Read more
+                </a>
+            </section>
+        </div> 
+    </div>
+
+</body>
+</html>
